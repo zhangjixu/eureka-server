@@ -3,3 +3,6 @@ server:
 spring:
   application:
     name: eureka-erver
+eureka:
+  server:
+    enable-self-preservation: false
