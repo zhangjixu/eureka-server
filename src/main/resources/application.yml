@@ -5,10 +5,7 @@ spring:
     name: eureka-erver
 eureka:
   client:
-    # 是否向服务注册中心注册自己
-    register-with-eureka: false
-    # 是否检索服务
-    fetch-registry: false
+    register-with-eureka: false # 是否向服务注册中心注册自己
+    fetch-registry: false # 是否检索服务
   server:
-    # 关闭保护机制
-    enable-self-preservation: false
+    enable-self-preservation: false # 是否开启保护机制
